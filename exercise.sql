@@ -8,3 +8,13 @@ FROM        brainStroke, (SELECT COUNT(*) count FROM brainStroke WHERE gender = 
 WHERE       gender = 'Male'
 GROUP BY    stroke;
 
+-- People with both hypertension and stoke
+SELECT      gender, COUNT(*) has_both_hyptnsn_hrt_dis
+FROM        brainStroke
+WHERE       hypertension = 1 AND heart_disease = 1
+GROUP BY    gender;
+
+-- Hypertension by residence type
+SELECT      residence_type, hypertension,  COUNT(*) count
+FROM        brainStroke 
+GROUP BY    residence_type, hypertension
