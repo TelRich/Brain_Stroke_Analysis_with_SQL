@@ -1,4 +1,7 @@
 ### Summary
+
+![](2023-02-20-11-05-34.png)
+
 1. There are more Female than Men, 2,907 and 2,074 respectively
 2. 4,733 persons have no Stroke while the remaining 248 have Stroke
 4. 5% of Female has Stroke
